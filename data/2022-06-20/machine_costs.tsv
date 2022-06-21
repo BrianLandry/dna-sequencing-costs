@@ -1,0 +1,30 @@
+company	machine	cost_per_machine
+Illumina	iSeq	19900
+Illumina	MiniSeq	65000
+Illumina	MiSeq	99000
+Illumina	NextSeq 550	250000
+Illumina	HiSeq 2500	740000
+Illumina	HiSeq 2500	690000
+Illumina	HiSeq 4000	900000
+Illumina	NextSeq 1000	225000
+Illumina	NextSeq 2000	335000
+Illumina	HiSeq X	1000000
+Illumina	NovaSeq	985000
+Element	AVITI	289000
+Singular	Singular G4	350000
+PacBIo	Sequel II	350000
+PacBIo	PacBio 64M Chip	350000
+Oxford Nanopore	MinION	10000
+Oxford Nanopore	GridIon	70000
+Oxford Nanopore	PromethION P2	10500
+Oxford Nanopore	PromethION P2	60000
+Oxford Nanopore	PromethION 24	225000
+Oxford Nanopore	PromethION 48	310000
+ThermoFisher	Ion S5	65000
+ThermoFisher	Ison Genexus GX5	299000
+BGI	T7	1000000
+BGI	G400C	360000
+BGI	G400RS	360000
+BGI	G50	150000
+Genapsys	Genapsys	9900
+Ultima	UG100	1500000

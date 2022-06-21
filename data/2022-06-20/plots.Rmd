@@ -1,0 +1,139 @@
+```{r}
+library(tidyverse)
+library(geomtextpath)
+library(readxl)
+date <- '2022-06-20'
+vilella_version <- 'v1.7.8'
+vilella_dirty <- str_c('Next-Generation-Sequencing.',vilella_version,'.tsv')
+vilella_cleaned <- str_c('Next-Generation-Sequencing.',vilella_version,'.cleaned.tsv')
+machine_costs_filename <- 'machine_costs.tsv'
+companies_filename <- 'companies.tsv'
+companies <- read_tsv(companies_filename)
+company_colors <- pull(companies, company_color)
+names(company_colors) <- pull(companies, company)
+```
+
+# Clean Vilella's Spreadsheet
+
+```{r}
+read_tsv(
+  file = vilella_dirty, 
+  n_max = 54,
+  col_types = cols(.default = col_character())
+) %>%
+  transmute(
+    platform = `Platform...1`,
+    reads_per_run_M = `Reads x run: (M)`,
+    read_length = `Read length: (paired-end*, Half of data in reads**)`,
+    run_time_d =  `Run time: (d)` ,
+    yield_gb = `Yield: (Gb)`,
+    rate_gb_per_dat =`Rate: (Gb/d)` ,
+    reagent_cost = `Reagents: ($)`   ,
+    cost_per_gb = `per-Gb: ($)` ,
+    hg_30x_cost =`hg-30x: ($)`   ,
+    cost_per_machine = `Machine: ($ K)`,
+    install_base = `Install base`,
+    max_yield_per_day = `Max theoretical output per day (Gb)`,
+    max_gb_per_day = `Max total output per day (Gb) from current installbase`,
+    hg_per_year = `Number of Human 30X WGS per year` 
+  ) %>%
+  left_join(read_tsv('vilella_kits.tsv'), 'platform') %>%
+  write_tsv(vilella_cleaned)
+```
+
+# Machine Costs
+
+```{r}
+read_tsv(vilella_cleaned) %>%
+  separate_rows(cost_per_machine, sep = '-', convert = TRUE) %>%
+  filter(!(str_detect(platform, "AVITI") & cost_per_machine == 249)) %>% # Remove low range of AVITI instrument price
+  mutate(cost_per_machine = as.numeric(cost_per_machine) * 1000) %>%
+  left_join(read_tsv('instrument_names.tsv'), 'kit') %>%
+  select(company, machine, cost_per_machine) %>%
+  unique() %>%
+  filter(!is.na(cost_per_machine)) %>%
+  write_tsv(machine_costs_filename)
+```
+
+
+```{r}
+read_tsv('cost_per_gb_plot_data.tsv') %>%
+  filter(!is.na(plot_label)) %>%
+  left_join(read_tsv('instrument_names.tsv'),  "kit") %>% 
+  left_join(
+    select(
+      read_tsv(vilella_cleaned),
+      kit, cost_per_gb
+      ), 
+    'kit'
+    ) %>%
+  left_join(select(read_tsv(machine_costs_filename), machine, cost_per_machine), "machine") %>% 
+  separate_rows(cost_per_gb, sep = '-', convert = TRUE) %>%
+  arrange(-cost_per_gb, cost_per_machine) %>%
+  group_by(kit) %>%
+  filter(!(kit == "ONT PromethION 24fcells 3000 channels" & rank(cost_per_gb) == 1)) %>% # Remove intermediate point for promethion
+  filter(!(kit == "ONT PromethION 48fcells 3000 channels" & rank(-cost_per_gb) == 1)) %>% # Remove intermediate point for promethion
+  {} -> cost_per_gb_df
+
+cost_per_gb_df %>%
+  ggplot(aes(x = cost_per_machine, y = cost_per_gb, color = company, group = plot_label, label = plot_label)) + 
+  geom_line() +
+  geom_point() +
+  geom_textpath(
+    aes(
+      vjust = ifelse(is.na(vjust), -0.5, vjust),
+      hjust = ifelse(is.na(hjust), 0.5, hjust),
+      offset = ifelse(is.na(offset), 0, offset)
+      ),
+    size = 2, 
+    color = 'black', 
+    text_only = TRUE) +
+  scale_x_continuous(labels=scales::dollar_format(), name = "Instrument Cost") +
+  scale_y_continuous(trans = 'log10', minor_breaks = c(2:10 %o% 10^(0:2)), labels=scales::dollar_format(), name = "Cost/Gigabase") +
+  scale_color_manual(name = "", values = company_colors, breaks = sort(as.character(unique(cost_per_gb_df$company)))) +
+  ggtitle("Whole Genome Sequencing Costs",
+          subtitle = "Data from @AlbertVilella (http://bit.ly/ngsspecs)\nVisualization by @brianlandry23") +
+  theme_bw() +
+  theme(plot.subtitle=element_text(size = 8), panel.grid.major.x  = element_blank(), panel.grid.minor.x = element_blank())
+  
+```
+
+```{r}
+read_xlsx(str_c('dna_couting.xlsx')) %>%
+  left_join(read_tsv('instrument_names.tsv'), 'kit') %>%
+  left_join(select(read_tsv(machine_costs_filename), machine, cost_per_machine), "machine") %>% 
+  mutate(company = factor(company, levels = unique(company))) %>% 
+  {} -> dna_counting_data
+
+dna_counting_data %>%
+  ggplot(aes(x = cost_per_machine, y =  cost_per_1MM_reads, color = company, group = company)) + 
+  geom_point() +
+  scale_x_continuous(labels=scales::dollar_format(), name = "Instrument Cost") +
+  scale_y_continuous(
+    trans = 'log10', 
+    minor_breaks = c(2:10 %o% 10^(-1:2)), 
+    limits = c(0.2, 200), 
+    expand = expansion(),
+    labels=scales::dollar_format(),
+    name = "Cost/Million Reads"
+    ) +
+  geom_text(
+    aes(
+      x = cost_per_machine + x_shift,
+      y = cost_per_1MM_reads * y_shift_perc,
+      label = str_replace(plot_label, fixed("\\n"), fixed("\n")), 
+      hjust = label_hjust, 
+      vjust = label_vjust
+      ),
+    color = 'black',
+    lineheight = 0.8,
+    size = 3,
+    nudge_x = 1
+    ) +
+  scale_color_manual(name = "", values = company_colors, breaks = sort(as.character(unique(dna_counting_data$company)))) +
+  ggtitle("DNA Counting Costs (Spatial, NIPT, Methylation, ect.)",
+          subtitle = "Data from @AlbertVilella (http://bit.ly/ngsspecs) and @brianlandry23\nVisualization by @brianlandry23") +
+  theme_bw() +
+  theme(plot.subtitle=element_text(size = 8), panel.grid.major.x  = element_blank(), panel.grid.minor.x = element_blank())
+```
+

@@ -1,0 +1,52 @@
+platform	company	type	hjust	vjust	offset
+ILMN iSeq 100 1fcell	Illumina	i/Mini/MiSeq	1.5		
+ILMN MiniSeq 1fcell	Illumina	i/Mini/MiSeq	1.5		
+ILMN MiSeq 1fcell	Illumina	i/Mini/MiSeq	1.5		
+ILMN NextSeq 550 1fcell					
+ILMN HiSeq 2500 RR 2fcells					
+ILMN HiSeq 2500 V3 2fcells					
+ILMN HiSeq 2500 V4 2fcells					
+ILMN HiSeq 4000 2fcells					
+ILMN NextSeq 1000 P2 1fcell	Illumina	NextSeq			
+ILMN NextSeq 2000 P3 1fcell	Illumina	NextSeq			
+ILMN HiSeq X 2fcells					
+ILMN NovaSeq SP 2fcells	Illumina	NovaSeq		1.5	
+ILMN NovaSeq S1 2fcells					
+ILMN NovaSeq S2 2fcells					
+ILMN NovaSeq S4 v1.5 2fcells	Illumina	NovaSeq		1.5	
+ElemBio AVITI 2022 2fcell	Elemental	AVITI			
+Singular Genomics G4 F2 4fcell (early 2022)	Singular	Singular G4	0.2	1.5	
+Singular Genomics G4 F3 4fcell (late 2022)					
+Singular Genomics Systems PX (2023)					
+PACB RSII					
+PACB 8M Sequel II v2.0 chem 1 flowcell	PacBio	Sequel IIe			
+PACB 64M chip R&D 1 flowcell 2022					
+ONT Plate Flongle 1fcell=1well (R&D)					
+ONT SmidgION 1fcell					
+ONT Flongle 1fcell 126 channels					
+ONT MinION Mk 1B 1fcell 512 channels	Oxford Nanopore	MinION			
+ONT GridION X5 5fcells	Oxford Nanopore	GridION			
+ONT P2 Solo 1fcell					
+ONT P2  1fcell					
+ONT PromethION 24fcells 3000 channels	Oxford Nanopore	PromethION			
+ONT PromethION 48fcells 3000 channels	Oxford Nanopore	PromethION			
+TMO Ion S5 510 1chip	ThermoFisher	TMO Ion	0.3		
+TMO Ion S5 520 1chip					
+TMO Ion S5 530 1chip					
+TMO Ion Genexus GX5 1chip					
+TMO Ion S5 540 1chip					
+TMO Ion S5 550 1chip	ThermoFisher	TMO Ion			
+MGI DNBSEQ-T10×4RS 8fcells	BGI				
+MGI DNBSEQ-T7 4fcells	BGI	DNBSEQ-T7		1.8	
+MGI DNBSEQ-G400RS 2fcells	BGI	DNBSEQ-G400		-1	
+MGI DNBSEQ-G400RS  HotMPS 2fcells	BGI	DNBSEQ-G400		-1	
+DNBSEQ-G50 FCL 1fcell					
+DNBSEQ-G50 FCS 1fcell	BGI	DNBSEQ-G50		-1.2	
+DNBSEQ-E5 1fcell					
+Genapsys 1M Chip	Genapsys	Genapsys		1.5	
+Genapsys 16M Chip	Genapsys	Genapsys		1.5	
+Genapsys 50M read (2021)					
+Genapsys 144M Chip (2021)					
+Genapsys 144M Chip (2021) long					
+GeneMind Bio GenoLab M (2021)					
+QitanTech QNome-9604					

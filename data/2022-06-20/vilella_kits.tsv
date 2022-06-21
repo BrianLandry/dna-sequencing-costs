@@ -1,0 +1,55 @@
+platform	kit
+ILMN iSeq 100 1fcell	ILMN iSeq 100 1fcell
+ILMN MiniSeq 1fcell	ILMN MiniSeq 1fcell
+ILMN MiSeq 1fcell	ILMN MiSeq 1fcell
+ILMN NextSeq 550 1fcell	ILMN NextSeq 550 1fcell
+ILMN HiSeq 2500 RR 2fcells	ILMN HiSeq 2500 RR 2fcells
+ILMN HiSeq 2500 V3 2fcells	ILMN HiSeq 2500 V3 2fcells
+ILMN HiSeq 2500 V4 2fcells	ILMN HiSeq 2500 V4 2fcells
+ILMN HiSeq 4000 2fcells	ILMN HiSeq 4000 2fcells
+ILMN NextSeq 1000 P2 1fcell	ILMN NextSeq 1000 P2 1fcell
+ILMN NextSeq 2000 P3 1fcell	ILMN NextSeq 2000 P3 1fcell
+ILMN HiSeq X 2fcells	ILMN HiSeq X 2fcells
+ILMN NovaSeq SP 2fcells	ILMN NovaSeq SP 2fcells
+ILMN NovaSeq S1 2fcells	ILMN NovaSeq S1 2fcells
+ILMN NovaSeq S2 2fcells	ILMN NovaSeq S2 2fcells
+ILMN NovaSeq S4 v1.5 2fcells	ILMN NovaSeq S4 v1.5 2fcells
+ElemBio AVITI 2022 2fcell 2x150bp	ElemBio AVITI 2022 2fcell 2x150bp
+ElemBio AVITI 2022 2fcell 2x75bp (Q4 2022)	ElemBio AVITI 2022 2fcell 2x75bp
+Singular Genomics G4 F2 4fcell Standard	Singular Genomics G4 F2 4fcell Standard
+Singular Genomics G4 F2 4fcell Max Read	Singular Genomics G4 F2 4fcell Max Read
+Singular Genomics G4 F3 4fcell (late 2022)	Singular Genomics G4 F3 4fcell
+Singular Genomics Systems PX (2023)	Singular Genomics Systems PX
+PACB SBB	PACB SBB
+PACB 8M Sequel II v2.0 chem 1 flowcell	PACB 8M Sequel II v2.0 chem 1 flowcell
+PACB 64M chip R&D 1 flowcell 2022	PACB 64M chip R&D 1 flowcel
+ONT Plate Flongle 1fcell=1well (R&D)	ONT Plate Flongle 1fcell=1well
+ONT SmidgION 1fcell	ONT SmidgION 1fcell
+ONT Flongle 1fcell 126 channels	ONT Flongle 1fcell 126 channels
+ONT MinION Mk 1B 1fcell 512 channels	ONT MinION Mk 1B 1fcell 512 channels
+ONT GridION X5 5fcells	ONT GridION X5 5fcells
+ONT P2 Solo 1fcell	ONT P2 Solo 1fcell
+ONT P2  1fcell	ONT P2  1fcell
+ONT PromethION 24fcells 3000 channels	ONT PromethION 24fcells 3000 channels
+ONT PromethION 48fcells 3000 channels	ONT PromethION 48fcells 3000 channels
+TMO Ion S5 510 1chip	TMO Ion S5 510 1chip
+TMO Ion S5 520 1chip	TMO Ion S5 520 1chip
+TMO Ion S5 530 1chip	TMO Ion S5 530 1chip
+TMO Ion Genexus GX5 1chip	TMO Ion Genexus GX5 1chip
+TMO Ion S5 540 1chip	TMO Ion S5 540 1chip
+TMO Ion S5 550 1chip	TMO Ion S5 550 1chip
+MGI DNBSEQ-T10×4RS 8fcells	MGI DNBSEQ-T10 4RS 8fcells
+MGI DNBSEQ-T7 4fcells	MGI DNBSEQ-T7 4fcells
+MGI DNBSEQ-G400C  CoolMPS 2fcells	MGI DNBSEQ-G400C  CoolMPS 2fcells
+MGI DNBSEQ-G400RS  HotMPS 2fcells	MGI DNBSEQ-G400RS  HotMPS 2fcells
+DNBSEQ-G50 FCL 1fcell	DNBSEQ-G50 FCL 1fcell
+DNBSEQ-G50 FCS 1fcell	DNBSEQ-G50 FCS 1fcell
+DNBSEQ-E5 1fcell	DNBSEQ-E5 1fcell
+Genapsys 1M Chip	Genapsys 1M Chip
+Genapsys 16M Chip	Genapsys 16M Chip
+Genapsys 50M read (144M 2023?)	Genapsys 50M read
+Genapsys 100M read (144M 2024?)	Genapsys 100M read
+Genapsys 500M+ Chip (1B+ 2025?)	Genapsys 500M Chip
+GeneMind Bio GenoLab M (2021)	GeneMind Bio GenoLab M
+QitanTech QNome-9604	QitanTech QNome-9604
+Ultima Genomics UG 100 (4g4-flow runs)	Ultima Genomics UG 100 (4g4-flow runs)
