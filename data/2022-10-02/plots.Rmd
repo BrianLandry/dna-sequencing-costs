@@ -111,10 +111,10 @@ cost_per_gb_df %>%
     text_only = TRUE,
     straight = TRUE
     ) +
-  scale_x_continuous(labels=scales::dollar_format(), name = "Instrument Cost") +
+  scale_x_continuous(labels=scales::dollar_format(), name = "Instrument Cost", limits = c(0, NA), expand = expansion(mult = c(0.01, 0.1)), breaks = c(0,500000, 1000000,  1500000)) +
   scale_y_continuous(trans = 'log10', minor_breaks = c(2:10 %o% 10^(0:2)), labels=scales::dollar_format(), name = "Cost/Gigabase") +
   scale_color_manual(name = "", values = company_colors, breaks = sort(as.character(unique(cost_per_gb_df$company)))) +
-  scale_shape_manual(values = c("released" = 19, "2022" = 18, "2023" = 17, "2024 (cost guessed)" = 10)) +
+  scale_shape_manual(values = c("Released" = 19, "2022" = 18, "2023" = 17, "2024 (cost guessed)" = 10), name = "") +
   ggtitle("Whole Genome Sequencing Costs",
           subtitle = "Data from @AlbertVilella (http://bit.ly/ngsspecs)\nVisualization by @brianlandry23") +
   theme_bw() +

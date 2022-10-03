@@ -23,6 +23,6 @@ MGI DNBSEQ-G400C  CoolMPS 2fcells	5	single
 MGI DNBSEQ-G400RS  HotMPS 2fcells	5.8	single
 DNBSEQ-G50 FCS 1fcell	720	single
 Ultima Genomics UG 100 (4g4-flow runs)	1	single
-ONT P2 1fcell	7	single
-ONT PromethION 48fcells 10,700 channels	3	single
+ONT P2 1fcell	4.8	single
+ONT PromethION 48fcells 10,700 channels	2.07	single
 ILMN NextSeq 2000 P4 1fcell	5	single
