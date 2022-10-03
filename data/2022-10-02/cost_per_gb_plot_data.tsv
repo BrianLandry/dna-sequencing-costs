@@ -1,0 +1,55 @@
+kit	plot_label	hjust	vjust	offset	plot_shape
+ILMN iSeq 100 1fcell	i/Mini/MiSeq	1.5			Released
+ILMN MiniSeq 1fcell	i/Mini/MiSeq	1.5			Released
+ILMN MiSeq 1fcell	i/Mini/MiSeq	1.5			Released
+ILMN NextSeq 550 1fcell					
+ILMN HiSeq 4000 2fcells					
+ILMN NextSeq 1000 P1/P2 1fcell	NextSeq		1.5		Released
+ILMN NextSeq 2000 P3 1fcell	NextSeq		1.5		Released
+ILMN NextSeq 2000 P4 1fcell	NextSeq		1.5		2024 (cost guessed)
+ILMN NovaSeq SP 2fcells	NovaSeq		1.5		Released
+ILMN NovaSeq S1 2fcells					
+ILMN NovaSeq S2 2fcells					
+ILMN NovaSeq S4 v1.5 2fcells	NovaSeq		1.5		Released
+ILMN NovaSeq X & X plus 2fcells	NovaSeq X				2023
+ElemBio AVITI 2022 2fcell	AVITI		2		Released
+ElemBio AVITI 2022 2fcell 2x75bp					
+Singular Genomics G4 F2 4fcell Standard	Singular G4	1	-1		Released
+Singular Genomics G4 F2 4fcell Max Read					
+Singular Genomics G4 F3 4fcell	Singular G4	1	-1		2022
+Singular Genomics Systems PX					
+PACB 8M Sequel II/IIe v2.0 chem 1 flowcell	Sequel IIe				Released
+PACB SBB					
+PACB 64M chip R&D 1 flowcell					
+ONT Flongle 1fcell 126 channels					
+ONT MinION Mk1b 1fcell 512 channels	MinION				Released
+ONT MinION Mk1c 1fcell 512 channels					
+ONT GridION X5 5fcells	GridION				Released
+ONT P2 Solo 1fcell					
+ONT P2 1fcell	PromethION		1.5		Released
+"ONT PromethION 24fcells 10,700 channels"					
+"ONT PromethION 48fcells 10,700 channels"	PromethION		1.5		Released
+TMO Ion S5 510 1chip	TMO Ion	0.3			Released
+TMO Ion S5 520 1chip					
+TMO Ion S5 530 1chip					
+TMO Ion Genexus GX5 1chip					
+TMO Ion S5 540 1chip					
+TMO Ion S5 550 1chip	TMO Ion				Released
+MGI DNBSEQ-T10 4RS 8fcells					
+MGI DNBSEQ-T7 4fcells	DNBSEQ-T7	0	1.8		Released
+MGI DNBSEQ-G400C  CoolMPS 2fcells	DNBSEQ-G400	0	-1		Released
+MGI DNBSEQ-G400RS  HotMPS 2fcells	DNBSEQ-G400	0	-1		Released
+DNBSEQ-G99 2fcells					
+DNBSEQ-G50 FCL 1fcell					
+DNBSEQ-G50 FCS 1fcell	DNBSEQ-G50	0	-1.2		Released
+DNBSEQ-E5 1fcell					
+Genapsys 1M Chip					
+Genapsys 16M Chip					
+Genapsys 50M read					
+Genapsys 100M read					
+Genapsys 500M Chip					
+GeneMind GenoCare 1600 (2022)					
+GeneMind Bio GenoLab M					
+QitanTech QNome-3841					
+QitanTech QNome-3841hex					
+Ultima Genomics UG 100 (4g4-flow runs)	Ultima UG100	1			2023
