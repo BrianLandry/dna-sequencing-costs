@@ -1,0 +1,29 @@
+company	machine	cost_per_machine	machine_family	machine_cost_type
+Illumina	iSeq	19900	iSeq	single
+Illumina	MiniSeq	65000	MiniSeq	single
+Illumina	MiSeq	99000	MiSeq	single
+Illumina	NextSeq 550	250000	NextSeq	middle
+Illumina	HiSeq 2500	900000	HiSeq 2500	single
+Illumina	NextSeq 1000	225000	NextSeq	lower
+Illumina	NextSeq 2000	335000	NextSeq	higher
+Illumina	NovaSeq	985000	NovaSeq	single
+Illumina	NovaSeq X	1300000	NovaSeq X	single
+Element	AVITI	289000	AVITI	single
+Singular	Singular G4	350000	Singular G4	single
+PacBIo	Sequel II	525000	Sequel II	single
+Oxford Nanopore	Flongal	1500	Flongal	single
+Oxford Nanopore	MinION	1000	MinION	lower
+Oxford Nanopore	MinION	5000	MinION	higher
+Oxford Nanopore	GridIon	70000	GridIon	single
+Oxford Nanopore	PromethION P2	10500	PromethION	lower
+Oxford Nanopore	PromethION P2	60000	PromethION	middle
+Oxford Nanopore	PromethION 24	225000	PromethION	middle
+Oxford Nanopore	PromethION 48	310000	PromethION	higher
+ThermoFisher	Ion S5	65000	Ion S5	single
+ThermoFisher	Ison Genexus GX5	299000	Ison Genexus GX5	single
+BGI	T7	1000000	T7	single
+BGI	G400C	360000	G400C	single
+BGI	G400RS	360000	G400RS	single
+BGI	G50	150000	G50	single
+Genapsys	Genapsys	9900	Genapsys	single
+Ultima	UG100	1500000	UG100	single

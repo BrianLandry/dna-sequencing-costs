@@ -1,0 +1,129 @@
+Platform	Reads x run max: (M) 	Read length max: (paired-end*, Half of data in reads**)	Run time max: (d) 	Yield low: (Gb) 	Yield high: (Gb) 	Rate max: (Gb/d) 	Reagents max: ($)	Price per Gbp max: ($)	Price per Gbp min: ($)	hg-30x min: ($)	Machine: ($ K)	Install base	Availability	Max theoretical output per day (Gb)	Max total output per day (Gb) from current installbase	Number of Human 30X WGS per year	#	#REF!				#	Platform	length	yield
+ILMN iSeq 100 1fcell	4	150*	0.79	1.2	1.2	0.79	582	485.00	485.00	48500	19.9	1400	worldwide	1.56	2184	6	--					NA	ILMN iSeq 100 1fcell	150*	1.2
+ILMN MiniSeq 1fcell	25	150*	1.00	1.65	7.5	7.5	1750	534.12	233.33	23333	65	1700	worldwide	7.5	12750	27	NA					NA	ILMN MiniSeq 1fcell	150*	7.5
+ILMN MiSeq 1fcell	25	300*	2.33	0.3	15	7.5	1750	1122.98	117.97	11797	99	8400	worldwide	7.5	63000	27	NA					NA	ILMN MiSeq 1fcell	300*	15
+ILMN NextSeq 550 1fcell	400	150*	1.25	25	120	100	5256	64.13	43.80	4380	250	4000	worldwide	100	400,000	365	NA					NA	ILMN NextSeq 550 1fcell	150*	120
+ILMN HiSeq 4000 2fcells	5000	150*	3.50		1500	400	34450		25.00	2500	900	400	worldwide	400	160,000	1460	NA					NA	ILMN HiSeq 4000 2fcells	150*	1500
+ILMN NextSeq 1000 P1/P2 1fcell	400	PE150*	2.00	30	120	60	3800	60.90	30.61	3061.00	225		worldwide	150	0	548		ILMN NovaSeq S4 v1.5 2fcells	1100	3600	3960000				
+ILMN NextSeq 2000 P3 1fcell	1200	PE150*	2.00	60	360	150	6000	38.92	17.30	1730	335	1175	worldwide	150	176,250	548									
+ILMN NextSeq 2000 P4 1fcell (2024)	NA	PE150*	NA	NA	500	NA	NA	NA	NA	NA	335	1	worldwide	150	150	548									
+ILMN NovaSeq SP 2fcells	1600	250*	1.58	65	800	505.3	8720	27.25	10.90	1090	985	0	worldwide	600	0	2190									
+ILMN NovaSeq S1 2fcells	3200	150*	1.04	134	1000	600	10898	23.93	10.90	1090	985	0	worldwide	600	0	2190	NA					NA	ILMN NovaSeq S1 2fcells	150*	1000
+ILMN NovaSeq S2 2fcells	6600	150*	1.50	333	2000	1333	19928	18.04	7.97	797	985	0	worldwide	0	0	0	NA					NA	ILMN NovaSeq S2 2fcells	150*	2000
+ILMN NovaSeq S4 v1.5 2fcells	20000	150*	1.83	280	6000	3600	29020	31.13	4.84	484	985	1485	worldwide	3600	5,346,000	13140	NA					NA	ILMN NovaSeq S4 v1.5 2fcells	150*	6000
+ILMN NovaSeq X & X plus 2fcells (Feb 2023)	52000	150*	2.00	1000	16000	8000	30000	NA	2.00	200	1300	1	worldwide	3600	3,600	13140	NA					NA	ILMN NovaSeq X & X plus 2fcells (Feb 2023)	150*	16000
+ElemBio AVITI 2022 2fcell	2000	PE150*	2.00	80	600	300	3360	7.00	5.60	560-700	289	1	US/inquire	300	300	1095									
+ElemBio AVITI 2022 2fcell 2x75bp (Q4 2022)	1600	PE75*	1.00	240	300	300	2160	7.20	NA	NA	289	1	US/inquire	150	150	548									
+Singular Genomics G4 F2 4fcell Standard	600-650	PE150*	0.79	15	200	253	NA	45.00	16.00	1600-4500	350	NA	US/inquire	NA	NA	#VALUE!	NA								
+Singular Genomics G4 F2 4fcell Max Read	4000	50	1.00	180	200	200	NA	45.00	16.00	NA	350	NA	US/inquire	NA	NA	#VALUE!	NA								
+Singular Genomics G4 F3 4fcell (late 2022)	1200-1320	PE150*	0.79	15	400	505	720-1140	16.00	8.00	800-1600	350	2	US/inquire	505	1,011	1844	NA								
+Singular Genomics Systems PX (2023)	NA	PE150*	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	2023?	NA	NA	NA	NA								
+PACB 8M Sequel II/IIe v2.0 chem 1 flowcell	4	45K-185K**	1.00	30	180	25-650	1300	43.30	7.20	3897-648	525	577	worldwide	650	375,050	150-2500	NA					NA	PACB 8M Sequel II/IIe v2.0 chem 1 flowcell	45K-185K**	180
+PACB SBB (2023H1)	NA	PE150*	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	worldwide	NA	NA	NA	NA					NA	PACB SBB (2023H1)	PE150*	NA
+PACB 64M chip R&D 1 flowcell (2023)	32	NA	NA	750	4500	NA	200	NA	NA	600-100	NA	0	2023?	16250	0	59313	NA					NA	PACB 64M chip R&D 1 flowcell (2023)	NA	4500
+ONT Flongle 1fcell 126 channels	NA	20-2000000	0.70	1	2	1.3	67.5	90.00	22.50	8100-2700	1.5	0	worldwide	2	0	7	NA					NA	ONT Flongle 1fcell 126 channels	20-2000000	#REF!
+ONT MinION Mk1b 1fcell 512 channels	NA	20-2000000	3.00	10	40	13.3	900-475	68.00	9.50	4770-885	1	5401	worldwide	15	81,015	55	NA					NA	ONT MinION Mk1b 1fcell 512 channels	20-2000000	40
+ONT MinION Mk1c 1fcell 512 channels	NA	20-2000000	3.00	10	40	13.3	900-475	68.00	9.50	4770-885	5	100	worldwide	15	1,500	55	NA					NA	ONT MinION Mk1c 1fcell 512 channels	20-2000000	40
+ONT GridION X5 5fcells	NA	20-2000000	3.00	50	200	66.6	900-475	68.00	9.50	4770-885	70	782	worldwide	75	58,650	274	NA					NA	ONT GridION X5 5fcells	20-2000000	200
+ONT P2 Solo 1fcell	NA	20-2000000	3.00	100	200	66.6	1400-600	35.00	5.00	3500-500	10.5		worldwide	333		1215									
+ONT P2  1fcell	NA	20-2000000	3.00	100	200	66.6	1400-600	9.50	2.00	3500-500	60		worldwide	333		1215									
+ONT PromethION 24fcells 10,700 channels	NA	20-2000000	3.00	100	4800	1000	1400-600	9.50	2.00	1440-382	225	0	worldwide	2333	0	8517	NA					NA	ONT PromethION 24fcells 10,700 channels	20-2000000	4800
+ONT PromethION 48fcells 10,700 channels	NA	20-2000000	3.00	100	9600	2000	1400-600	9.50	2.00	1440-382	310	67	worldwide	4667	312,667	17033	NA					NA	ONT PromethION 48fcells 10,700 channels	20-2000000	9600
+TMO Ion S5 510 1chip	2 - 3	200-400	0.21	1	1	4.8	950	950.00	950.00	114000	65	0	worldwide	1	0	4	NA					NA	TMO Ion S5 510 1chip	200-400	1
+TMO Ion S5 520 1chip	3 - 5	200-600	0.23	1	1	4.3	1000	500.00	500.00	60000	65	0	worldwide	1	0	4	NA					NA	TMO Ion S5 520 1chip	200-600	1
+TMO Ion S5 530 1chip	20	200-600	0.29	4	4	13.8	1200	150.00	150.00	18000	65	0	worldwide	4	0	15	NA					NA	TMO Ion S5 530 1chip	200-600	4
+TMO Ion Genexus GX5 1chip	48-60	200-400	1.25	9.6	24	NA	3500	364.60	104.20	11196	299	0	worldwide	24	0	88	NA					NA	TMO Ion Genexus GX5 1chip	200-400	24
+TMO Ion S5 540 1chip	80	200	0.42	15	15	35.7	1400	93.30	93.30	11196	65	0	worldwide	15	0	55	NA					NA	TMO Ion S5 540 1chip	200	15
+TMO Ion S5 550 1chip	130	200	0.50	25	25	50	1670	66.80	66.80	8016	65	2220	worldwide	25	55,500	91	NA					NA	TMO Ion S5 550 1chip	200	25
+MGI DNBSEQ-T10×4RS 8fcells	230000	PE150*	3.50	70000	70000	20000	70000	NA	1.00	100	NA	6	worldwide	20000	120,000	73000							MGI DNBSEQ-T10×4RS 8fcells	PE150*	70000
+MGI DNBSEQ-T7 4fcells	20000	PE150*	1.00	1000	6000	6000	35000	NA	5.00	450	1000	20	worldwide	6000		21900									
+MGI DNBSEQ-G400C  CoolMPS 2fcells	3600	PE200*	4.54	55	1440	317	NA	NA	5.00	500	360	1	worldwide	130	NA	475									
+MGI DNBSEQ-G400RS  HotMPS 2fcells	3600	PE100*	2.25	55	720	320	NA	NA	5.80	696	360	1	worldwide	130	NA	475									
+DNBSEQ-G99 2fcells	160	PE150*	1.00	8	48	48	NA	NA	NA	NA	NA	1	worldwide	48	NA	175									
+DNBSEQ-G50 FCL 1fcell	500	PE150*	1.67	25	150	90	NA	NA	NA	NA	150	NA	worldwide	60	NA	219	NA					NA	DNBSEQ-G50 FCL 1fcell	PE150*	150
+DNBSEQ-G50 FCS 1fcell	100	PE150*	1.17	10	30	26	21600	NA	720.00	86400	150	1	worldwide	26	26	95	NA					NA	DNBSEQ-G50 FCS 1fcell	PE150*	30
+DNBSEQ-E5 1fcell	5	100	0.38	NA	0.5	1	NA		NA	NA	NA	1	China?	1	1	4	NA					NA	DNBSEQ-E5 1fcell	100	0.5
+Genapsys 1M Chip	1	150	1.17	0.2	0.2	0.2	100	1.00	500.00	60000	9.9	1	doubtful	30	30	110	NA								
+Genapsys 16M Chip	10 - 13	300	1.17	3	3.9	NA	299	299.00	299.00	35880	9.9	1	doubtful	30	30	110	NA								
+Genapsys 50M read (144M 2023?)	50	PE150*	1.17	15	15	NA	NA	NA	NA	NA	9.9	1	doubtful	30	30	110	NA								
+Genapsys 100M read (144M 2024?)	100	PE150*	1.17	30	30	NA	NA	NA	NA	NA	9.9	1	doubtful	30	30	110	NA								
+Genapsys 500M+ Chip (1B+ 2025?)	500	PE250*	NA	250	250	NA	NA	NA	NA	NA	9.9	1	doubtful	30	30	110	NA								
+GeneMind GenoCare 1600 (2022)	320	50	1	4	16	16	NA	NA	NA	NA	NA	1	NIPT/China												
+GeneMind Bio GenoLab M (2021)	1000	PE150*	2	25	300	150	NA	NA	NA	600-900	NA	1	NIPT/China	NA	NA	NA	NA								
+QitanTech QNome-3841	NA	200-2,000,000	NA	3	3	NA	NA	NA	NA	NA	NA	NA	2023/China	NA	NA	NA									
+QitanTech QNome-3841hex	NA	200-2,000,000	NA	18	18	NA	NA	NA	NA	NA	NA	NA	2023/China	NA	NA	NA									
+Ultima Genomics UG 100 (4g4-flow runs)	8000-10000	300	0.83	625	10000	NA	NA	NA	1.00	100	1500	NA	2023/worldwide	3000	NA	NA									
+																									
+Total (Gb/day) all sequencers	7,169,802.19																								
+Human genomes (30x)/day	79,664	90																							
+Human genomes (30x)/year	29,077,531	365																							
+Years to sequence 7700000000 people	265 yrs	7,700,000,000																							
+Number of NovaSeqs or PromethIONs or MGIT7s needed to sequence 7700000000, people in 10 years	9493 - 52740	10																							
+Number of @illumina NovaSeqs needed to sequence 131M newborns per year (and fold increase of current install base)	8,973	(6x)																							
+Number of @MGI_BGI T10x4 units needed to sequence 131M newborns per year (and fold increase of current install base)	1,615	(269.2x)																							
+Number of @MGI_BGI TX sequencing factories needed to sequence 131M newborns per year (and fold increase of current install base)	1,615	(269.2x)																							
+																									
+			Platform		Price per Gbp min: ($)	Gigs per $1000 lower	Gigs per $1000 higher																		
+			ILMN iSeq 100 1fcell		485.00	2.06185567	2.06185567																		
+			ILMN MiniSeq 1fcell		233.33	4.285714286	4.285714286																		
+			ILMN MiSeq 1fcell		117.97	8.476731372	8.476731372																		
+			ILMN NextSeq 550 1fcell		43.80	22.83105023	22.83105023																		
+			ILMN HiSeq 4000 2fcells		25.00	40	40																		
+			ILMN NextSeq 1000 P1/P2 1fcell		30.61	32.6690624	32.6690624																		
+			ILMN NextSeq 2000 P3 1fcell		17.30	57.80346821	57.80346821																		
+			ILMN NextSeq 2000 P4 1fcell (2024)		NA	#VALUE!	#VALUE!																		
+			ILMN NovaSeq SP 2fcells		10.90	91.74311927	91.74311927																		
+			ILMN NovaSeq S1 2fcells		10.90	91.74311927	91.74311927																		
+			ILMN NovaSeq S2 2fcells		7.97	125.4705144	125.4705144																		
+			ILMN NovaSeq S4 v1.5 2fcells		4.84	206.6115702	206.6115702																		
+			ILMN NovaSeq X & X plus 2fcells (Feb 2023)		2.00	500	500																		
+			ElemBio AVITI 2022 2fcell		5.60	178.5714286	178.5714286																		
+			ElemBio AVITI 2022 2fcell 2x75bp (Q4 2022)		NA	#VALUE!	#VALUE!																		
+			Singular Genomics G4 F2 4fcell Standard		16.00	#VALUE!	#VALUE!																		
+			Singular Genomics G4 F2 4fcell Max Read		16.00	62.5	62.5																		
+			Singular Genomics G4 F3 4fcell (late 2022)		8.00	125	125																		
+			Singular Genomics Systems PX (2023)		NA	#VALUE!	#VALUE!																		
+			PACB 8M Sequel II/IIe v2.0 chem 1 flowcell		7.20	138.8888889	138.8888889																		
+			PACB SBB (2023H1)		NA	#VALUE!	#VALUE!																		
+			PACB 64M chip R&D 1 flowcell (2023)		NA	#VALUE!	#VALUE!																		
+			ONT Flongle 1fcell 126 channels		22.50	44.44444444	44.44444444																		
+			ONT MinION Mk1b 1fcell 512 channels		9.50	11.11111111	33.33333333																		
+			ONT MinION Mk1c 1fcell 512 channels		9.50	#VALUE!	#VALUE!																		
+			ONT GridION X5 5fcells		9.50	#VALUE!	#VALUE!																		
+			ONT P2 Solo 1fcell		5.00	#VALUE!	#VALUE!																		
+			ONT P2  1fcell		2.00	500	500																		
+			ONT PromethION 24fcells 10,700 channels		2.00	500	500																		
+			ONT PromethION 48fcells 10,700 channels		2.00	500	500																		
+			TMO Ion S5 510 1chip		950.00	1.052631579	1.052631579																		
+			TMO Ion S5 520 1chip		500.00	2	2																		
+			TMO Ion S5 530 1chip		150.00	6.666666667	6.666666667																		
+			TMO Ion Genexus GX5 1chip		104.20	9.596928983	9.596928983																		
+			TMO Ion S5 540 1chip		93.30	10.71811361	10.71811361																		
+			TMO Ion S5 550 1chip		66.80	14.97005988	14.97005988																		
+			MGI DNBSEQ-T10×4RS 8fcells		1.00																				
+			MGI DNBSEQ-T7 4fcells		5.00																				
+			MGI DNBSEQ-G400C  CoolMPS 2fcells		5.00																				
+			MGI DNBSEQ-G400RS  HotMPS 2fcells		5.80																				
+			DNBSEQ-G99 2fcells		NA																				
+			DNBSEQ-G50 FCL 1fcell		NA																				
+			DNBSEQ-G50 FCS 1fcell		720.00																				
+			DNBSEQ-E5 1fcell		NA																				
+			Genapsys 1M Chip		500.00																				
+			Genapsys 16M Chip		299.00																				
+			Genapsys 50M read (144M 2023?)		NA																				
+			Genapsys 100M read (144M 2024?)		NA																				
+			Genapsys 500M+ Chip (1B+ 2025?)		NA																				
+			GeneMind GenoCare 1600 (2022)		NA																				
+			GeneMind Bio GenoLab M (2021)		NA																				
+			QitanTech QNome-3841		NA																				
+			QitanTech QNome-3841hex		NA																				
+			Ultima Genomics UG 100 (4g4-flow runs)		1.00																				
+																									
+			Total (Gb/day) all sequencers																						
+			Human genomes (30x)/day																						
+			Human genomes (30x)/year																						
+			Years to sequence 7700000000 people																						
+			Number of NovaSeqs or PromethIONs or MGIT7s needed to sequence 7700000000, people in 10 years																						
+			Number of @illumina NovaSeqs needed to sequence 131M newborns per year (and fold increase of current install base)																						
+			Number of @MGI_BGI T10x4 units needed to sequence 131M newborns per year (and fold increase of current install base)																						
+			Number of @MGI_BGI TX sequencing factories needed to sequence 131M newborns per year (and fold increase of current install base)																						

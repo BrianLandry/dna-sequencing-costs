@@ -1,0 +1,28 @@
+kit	cost_per_gb	gb_cost_type
+ILMN iSeq 100 1fcell	485	single
+ILMN MiniSeq 1fcell	233.33	single
+ILMN MiSeq 1fcell	117.97	single
+ILMN NextSeq 1000 P1/P2 1fcell	30.61	single
+ILMN NextSeq 2000 P3 1fcell	17.3	single
+ILMN NovaSeq SP 2fcells	10.9	single
+ILMN NovaSeq S4 v1.5 2fcells	4.84	single
+ILMN NovaSeq X & X plus 2fcells	2	single
+ElemBio AVITI 2022 2fcell	5	single
+Singular Genomics G4 F2 4fcell Standard	16	single
+Singular Genomics G4 F3 4fcell	8	single
+PACB 8M Sequel II/IIe v2.0 chem 1 flowcell	43.3	higher
+PACB 8M Sequel II/IIe v2.0 chem 1 flowcell	7.2	lower
+ONT MinION Mk1b 1fcell 512 channels	68	higher
+ONT MinION Mk1b 1fcell 512 channels	8.5	lower
+ONT GridION X5 5fcells	68	higher
+ONT GridION X5 5fcells	8.5	lower
+TMO Ion S5 510 1chip	950	single
+TMO Ion S5 550 1chip	66.8	single
+MGI DNBSEQ-T7 4fcells	5	single
+MGI DNBSEQ-G400C  CoolMPS 2fcells	5	single
+MGI DNBSEQ-G400RS  HotMPS 2fcells	5.8	single
+DNBSEQ-G50 FCS 1fcell	720	single
+Ultima Genomics UG 100 (4g4-flow runs)	1	single
+ONT P2 1fcell	4.8	single
+ONT PromethION 48fcells 10,700 channels	2.07	single
+ILMN NextSeq 2000 P4 1fcell	15	single

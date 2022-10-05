@@ -1,0 +1,55 @@
+kit	company	machine	machine_family
+ILMN iSeq 100 1fcell	Illumina	iSeq	iSeq
+ILMN MiniSeq 1fcell	Illumina	MiniSeq	MiniSeq
+ILMN MiSeq 1fcell	Illumina	MiSeq	MiSeq
+ILMN NextSeq 550 1fcell	Illumina	NextSeq 550	NextSeq
+ILMN HiSeq 4000 2fcells	Illumina	HiSeq 2500	HiSeq 2500
+ILMN NextSeq 1000 P1/P2 1fcell	Illumina	NextSeq 1000	NextSeq
+ILMN NextSeq 2000 P3 1fcell	Illumina	NextSeq 2000	NextSeq
+ILMN NextSeq 2000 P4 1fcell	Illumina	NextSeq 2000	NextSeq
+ILMN NovaSeq SP 2fcells	Illumina	NovaSeq	NovaSeq
+ILMN NovaSeq S1 2fcells	Illumina	NovaSeq	NovaSeq
+ILMN NovaSeq S2 2fcells	Illumina	NovaSeq	NovaSeq
+ILMN NovaSeq S4 v1.5 2fcells	Illumina	NovaSeq	NovaSeq
+ILMN NovaSeq X & X plus 2fcells	Illumina	NovaSeq X	NovaSeq X
+ElemBio AVITI 2022 2fcell	Element	AVITI	AVITI
+ElemBio AVITI 2022 2fcell 2x75bp	Element	AVITI	AVITI
+Singular Genomics G4 F2 4fcell Standard	Singular	Singular G4	Singular G4
+Singular Genomics G4 F2 4fcell Max Read	Singular	Singular G4	Singular G4
+Singular Genomics G4 F3 4fcell	Singular	Singular G4	Singular G4
+Singular Genomics Systems PX	Singular	Singular G4	Singular G4
+PACB 8M Sequel II/IIe v2.0 chem 1 flowcell	PacBIo	Sequel II	Sequel II
+PACB SBB	PacBIo	SBB	SBB
+PACB 64M chip R&D 1 flowcell	PacBIo	PacBio 64M Chip	PacBio 64M Chip
+ONT Flongle 1fcell 126 channels	Oxford Nanopore	Flongal	Flongal
+ONT MinION Mk1b 1fcell 512 channels	Oxford Nanopore	MinION	MinION
+ONT MinION Mk1c 1fcell 512 channels	Oxford Nanopore	MinION	MinION
+ONT GridION X5 5fcells	Oxford Nanopore	GridIon	GridIon
+ONT P2 Solo 1fcell	Oxford Nanopore	PromethION P2	PromethION
+ONT P2 1fcell	Oxford Nanopore	PromethION P2	PromethION
+"ONT PromethION 24fcells 10,700 channels"	Oxford Nanopore	PromethION 24	PromethION
+"ONT PromethION 48fcells 10,700 channels"	Oxford Nanopore	PromethION 48	PromethION
+TMO Ion S5 510 1chip	ThermoFisher	Ion S5	Ion S5
+TMO Ion S5 520 1chip	ThermoFisher	Ion S5	Ion S5
+TMO Ion S5 530 1chip	ThermoFisher	Ion S5	Ion S5
+TMO Ion Genexus GX5 1chip	ThermoFisher	Ison Genexus GX5	Ison Genexus GX5
+TMO Ion S5 540 1chip	ThermoFisher	Ion S5	Ion S5
+TMO Ion S5 550 1chip	ThermoFisher	Ion S5	Ion S5
+MGI DNBSEQ-T10 4RS 8fcells	BGI	T10	T10
+MGI DNBSEQ-T7 4fcells	BGI	T7	T7
+MGI DNBSEQ-G400C  CoolMPS 2fcells	BGI	G400C	G400C
+MGI DNBSEQ-G400RS  HotMPS 2fcells	BGI	G400RS	G400RS
+DNBSEQ-G99 2fcells	BGI	G99	G99
+DNBSEQ-G50 FCL 1fcell	BGI	G50	G50
+DNBSEQ-G50 FCS 1fcell	BGI	G50	G50
+DNBSEQ-E5 1fcell	BGI	E5	E5
+Genapsys 1M Chip	Genapsys	Genapsys	Genapsys
+Genapsys 16M Chip	Genapsys	Genapsys	Genapsys
+Genapsys 50M read	Genapsys	Genapsys	Genapsys
+Genapsys 100M read	Genapsys	Genapsys	Genapsys
+Genapsys 500M Chip	Genapsys	Genapsys	Genapsys
+GeneMind GenoCare 1600 (2022)	GeneMind	GenoCVare	GenoCVare
+GeneMind Bio GenoLab M	GeneMind	GenoLab	GenoLab
+QitanTech QNome-3841	QitanTech	Qnome	Qnome
+QitanTech QNome-3841hex	QitanTech	Qnome	Qnome
+Ultima Genomics UG 100 (4g4-flow runs)	Ultima	UG100	UG100

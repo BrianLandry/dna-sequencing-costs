@@ -1,12 +1,12 @@
 # DNA Sequencing Costs Plots
 
-## Cost Per Read
-
-![](cost_per_read.png)
-
 ## Cost Per Gigabase
 
 ![](cost_per_gigabase.png)
+
+## Cost Per Read
+
+![](cost_per_read.png)
 
 ## Data Sources
 
